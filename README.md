@@ -33,13 +33,13 @@ Hardware – PCs, Cyclone II , USB flasher
 
 **PROGRAM:
 
-module EXP_3_1(a,b,c,d,f1);
+module Ex21(a,b,c,d,f1);
 input a,b,c,d;
 output f1;
 assign f1=((~b&~d)|(~a&b&d)|(a&b&~c));
 endmodule
 
-module EXP_3_2(w,x,y,z,f2);
+module Ex22(w,x,y,z,f2);
 input w,x,y,z;
 output f2;
 assign f2=((~y&z)|(x&y)|(w&y));
